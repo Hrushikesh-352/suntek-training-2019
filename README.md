@@ -24,12 +24,10 @@ int main()
 
    for (c = 0; c < 26; c++)
    {
-   if(count[c]==0)
-   {
-   goto x;
+   if(count[c]!=0)
+      {
+       printf("%c - %d \n", c + 'a', count[c]);
+      }
    }
-         printf("%c - %d \n", c + 'a', count[c]);
-         x:{}
-    }
    return 0;
 }
