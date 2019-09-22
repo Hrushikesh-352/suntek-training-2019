@@ -35,7 +35,7 @@ int main()
         if(not_found == 1)
             printf("\nStrings are not Anagram");
         else
-            printf("\nStrings are Anagram");
+           printf("\nStrings are Anagram");
     }
     else
        printf("\nBoth string must contain same number of character to be an Anagram Strings");
